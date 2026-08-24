@@ -1,0 +1,10 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font-family: -apple-system, system-ui, sans-serif; background: #F9F6EE; color: #2B2417; line-height: 1.65; }
+@media (prefers-color-scheme: dark) { body { background: #0F1230; color: #F2EFE9; } a { color: #F2C87A; } .card { background: rgba(255,255,255,.05); border-color: rgba(255,255,255,.1); } }
+main { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+h1 { font-family: Georgia, serif; font-size: 2rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin-top: 2em; }
+.sub { opacity: .6; margin-bottom: 2em; }
+a { color: #B4842B; }
+.card { border: 1px solid #E4DCC8; border-radius: 14px; padding: 16px 20px; background: #fff; margin: 1em 0; }
+hr { border: none; border-top: 1px solid rgba(128,128,128,.25); margin: 3em 0; }
